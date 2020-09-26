@@ -1,0 +1,11 @@
+
+Database Connection:
+1. Copy and Paste FindLostThings.mdf and FindLostThings_log.ldf file to the location 
+C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA or your installed location.
+2. Open Microsoft SQL Server Management Studio. You will see a dialog box "Connect to Server". Here, you will see your server name.
+Copy your server name before clicking connect. example: DESKTOP-D3OV9OU\SQLEXPRESS.
+3. Right click on Database. click Attach. Click Add. Select FindLostThings.mdf. Click OK. Click OK.
+4. Open the project in Visual Studio 2019. In Web.confiq file, go to the tag <connectionString>. Here, you will find
+data source=DESKTOP-D3OV9OU\SQLEXPRESS. Replace the server name with your server name that you copied.
+
+Database Connection Completed!
